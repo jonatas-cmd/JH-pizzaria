@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.AuthController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Auth/cadastro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "JHPizzariaAPI.Models.CadastroRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "JHPizzariaAPI.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.PedidosController",
+    "Method": "Testar",
+    "RelativePath": "api/Pedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.PedidosController",
+    "Method": "CadastrarPedido",
+    "RelativePath": "api/Pedidos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dados",
+        "Type": "JHPizzariaAPI.Models.PedidoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.PedidosController",
+    "Method": "Historico",
+    "RelativePath": "api/Pedidos/historico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.TesteConexaoController",
+    "Method": "Testar",
+    "RelativePath": "api/TesteConexao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JHPizzariaAPI.Controllers.WeatherForecastController",
+    "Method": "TestarBanco",
+    "RelativePath": "WeatherForecast/TestarBanco",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

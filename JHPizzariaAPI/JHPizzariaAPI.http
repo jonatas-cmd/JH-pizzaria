@@ -1,0 +1,6 @@
+@JHPizzariaAPI_HostAddress = http://localhost:5020
+
+GET {{JHPizzariaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
